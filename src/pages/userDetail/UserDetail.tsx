@@ -46,8 +46,6 @@ const UserDetail: React.FC = () => {
       });
 
       if (response.status === 200) {
-        console.log(response);
-
         toast.success("User updated successfully");
       }
     } catch (err) {
